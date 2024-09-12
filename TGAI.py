@@ -75,5 +75,5 @@ def run_telegram_bot(api_token, pdf_path):
 if __name__ == "__main__":
     setup_environment()
     API_TOKEN = "7153499614:AAGAVCTvaZcMnphT0hjj5H6RO06Wiyprr3Q"
-    PDF_PATH = "text.pdf"
+    PDF_PATH = "question.pdf"
     run_telegram_bot(API_TOKEN, PDF_PATH)
